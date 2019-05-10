@@ -6,12 +6,52 @@
 @size[0.75em](つくるUOZUプロジェクト)
 @snapend
 
-# ゲーム開発エンジン<br>Unityと<br>C#の基礎を学ぶ講座
+# ゲーム開発エンジンUnityとC#の基礎を学ぶ講座
 @snapend
 
 ---
+### @css[slide-title](講座の流れ)
+
+@snap[slide-contents]
+
+@ol[numberlist numberlist-color1](false)
+- Unityとは			@css[detail-comment](Webの仕組みやプログラミングに必要な知識を学ぶ)
+- Unityのダウンロード	@css[detail-comment](Phoenix を利用して Elixir のWebプロジェクトを設定する)
+- Unityの使い方		@css[detail-comment](オープンデータを取得して抽出したデータをWebページに表示する)
+- Visual Studioとは	@css[detail-comment](DBからデータを取得してWebページに表示する)
+- Visual Studio Communityのダウンロード		@css[detail-comment](Webサイトにページを追加する)
+- Visual Studioの使い方		@css[detail-comment](自分の位置情報を取得してWebページに表示する)
+- Unityスクリプトリファレンスの使い方
+- その他の便利なツール	@css[detail-comment](地図アプリを作成するのに便利なツールを知る)
+
+## Unityとは
+
+## Unityのダウンロード
+
+## Unityの使い方
+
+## Visual Studioとは
+
+## Visual Studio Communityのダウンロード
+
+## Visual Studioの使い方
+
+## Unityスクリプトリファレンスの使い方
+
+## コードの読み方
+### 変数と関数とは
+### 変数と関数の見分け方
+
+## 勉強サイト
+
+@olend
+
+@snapend
+
 
 ---?color=#3A8FB7
+
+
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)

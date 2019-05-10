@@ -25,10 +25,10 @@
 @snap[slide-contents]
 
 @ol[numberlist numberlist-color1](false)
-- Unityの基礎  @css[detail-comment](Unity のダウンロード)
-- Visual Studioについて	@css[detail-comment](DBからデータを取得してWebページに表示する)
-- 学習の進めかた @css[detail-comment](Unity のダウンロード)
-- C#の基礎 @css[detail-comment](C#の基礎文法について学ぶ)
+- Unityの基礎  @css[detail-comment](Unityのダウンロードと使いかた)
+- Visual Studioについて	@css[detail-comment](Visual Studioのダウンロードと使いかた)
+- 学習の進めかた @css[detail-comment](Unityでプログラミングしながら学習する方法)
+- C#の基礎 @css[detail-comment](C#の基礎文法)
 - おすすめする勉強サイト	@css[detail-comment](独学する際におすすめするWebページ一覧)
 
 以下メモ

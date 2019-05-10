@@ -3,7 +3,7 @@
 @snap[headline]
 
 @snap[byline headline-detail color4]
-size(1em}[ゲーム開発エンジンUnityとC#の基礎を学ぶ講座]
+size(1em)[ゲーム開発エンジンUnityとC#の基礎を学ぶ講座]
 @snapend
 
 ---

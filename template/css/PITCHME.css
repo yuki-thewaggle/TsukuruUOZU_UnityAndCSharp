@@ -80,6 +80,11 @@ strong {
   display: inline-block;
 }
 
+/* Align */
+.align-left {
+  text-align: left;
+}
+
 /* Title */
 .headline {
   text-align: left;

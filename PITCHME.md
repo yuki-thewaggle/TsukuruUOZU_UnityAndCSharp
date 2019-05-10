@@ -6,7 +6,7 @@
 @size[0.75em](つくるUOZUプロジェクト)
 @snapend
 
-# ゲーム開発エンジンUnityとC#の基礎を学ぶ講座
+# ゲーム開発エンジン<br>Unityと<br>C#の基礎を学ぶ講座
 @snapend
 
 ---

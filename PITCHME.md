@@ -13,11 +13,9 @@
 
 ## 講師　松本 有生
 
-@snap[align-left]
-合同会社ザワッグル　デザイナー・エンジニア<br>
-アステリソフト合同会社　エンジニア<br>
-バンタンゲームアカデミー高等部　講師<br>
-@snapend
+@size[0.8em](合同会社ザワッグル　デザイナー・エンジニア)
+@size[0.8em](アステリソフト合同会社　エンジニア)
+@size[0.8em](バンタンゲームアカデミー高等部　講師)
 
 ---
 ### @css[slide-title](講座の流れ)
@@ -33,18 +31,23 @@
 
 以下メモ
 https://www.youtube.com/watch?v=ruAN7e4wRwg
-- Unityとは
-- Unityのダウンロード
-- Unityの使い方
-- Visual Studioとは
-- Visual Studio Communityのダウンロード
-- Visual Studioの使い方
-- Unityスクリプトリファレンスの使い方
-- コードの読み方
-- 変数と関数とは
-- 変数と関数の見分け方
 
-## 勉強サイト
+- Unityの基礎
+  - Unityとは
+  - Unityのダウンロード
+  - Unityの使い方
+- Visual Studioについて
+  - Visual Studioとは
+  - Visual Studio Communityのダウンロード
+  - Visual Studioの使い方
+- 学習の進めかた
+  - Unityの学び方
+  - C#の学び方
+  - Unityスクリプトリファレンスの使い方
+- C#の基礎
+  - コードの読み方
+  - 変数と関数とは
+  - 変数と関数の見分け方
 
 @olend
 

@@ -24,7 +24,7 @@
 @snap[slide-contents]
 
 @ol[numberlist numberlist-color1](false)
-- Unityの基礎  @css[detail-comment](Unityのダウンロードと使いかた)
+- Unityの基礎  @css[detail-comment](Unityのインストールと使いかた)
 - Visual Studioについて	@css[detail-comment](Visual Studioのダウンロードと使いかた)
 - 学習の進めかた @css[detail-comment](Unityでプログラミングしながら学習する方法)
 - おすすめする勉強サイト	@css[detail-comment](独学におすすめなWebページ一覧)
@@ -64,7 +64,7 @@
 @quote[<ul><li>世界で最も使われているゲームエンジン</li><li>1回ビルドするだけで、どのプラットフォームにも展開可能</li><li>世の中のVRとARの3分の2以上で利用</li></ul>](https://unity3d.com/jp/unity?_ga=2.143241141.1809899379.1557457118-1033807694.1557457118)
 @snapend
 
-[Unity](https://unity3d.com/jp/)
+[Unity公式サイト](https://unity3d.com/jp/)
 
 @snapend
 
@@ -73,15 +73,30 @@
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [1. Unityの基礎](#/)
-- [2. Unityのダウンロード](#/)
+- [2. Unityのインストール](#/)
 @olend
 @snapend
 
-### @css[slide-title](Unityのダウンロード)
+### @css[slide-title](Unityのインストール)
 
 @snap[slide-contents]
 
-@box[rounded box-style](https://store.unity.com/ja/download?ref=personal)
+@box[rounded box-style](Unity Hubをダウンロードしたのち、Unityのバージョンを選択してインストールします)
+
+@ol[numberlist numberlist-color4](true)
+- <u>[Unity Personalで今すぐスタート](https://store.unity.com/ja/download?ref=personal)</u>にアクセスします。
+- 「**条件に同意する**」をチェックします。
+- 「**Unity Hubをダウンロード**」をクリックしてインストールします。
+- Unity Hubを起動します。
+- 上部の黒い帯にある「**Installs**」の文字をクリックします。
+- 左側にある「**Official Releases**」をクリックします。
+- 「**Unity 2018.3.〇〇**」の「**ダウンロード**」をクリックします。
+> Windowsの場合、インストールを許可します。
+- Macの場合、アイコンをフォルダにドラッグします。
+- インストールされます。
+@olend
+
+@box[rounded box-style]()
 
 @snapend
 

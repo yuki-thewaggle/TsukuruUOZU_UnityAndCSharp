@@ -18,6 +18,7 @@
 @size[0.8em](バンタンゲームアカデミー高等部　講師)
 
 ---
+
 ### @css[slide-title](講座の流れ)
 
 @snap[slide-contents]
@@ -26,29 +27,8 @@
 - Unityの基礎  @css[detail-comment](Unityのダウンロードと使いかた)
 - Visual Studioについて	@css[detail-comment](Visual Studioのダウンロードと使いかた)
 - 学習の進めかた @css[detail-comment](Unityでプログラミングしながら学習する方法)
+- おすすめする勉強サイト	@css[detail-comment](独学におすすめなWebページ一覧)
 - C#の基礎 @css[detail-comment](C#の基礎文法)
-- おすすめする勉強サイト	@css[detail-comment](独学する際におすすめするWebページ一覧)
-
-以下メモ
-https://www.youtube.com/watch?v=ruAN7e4wRwg
-
-- Unityの基礎
-  - Unityとは
-  - Unityのダウンロード
-  - Unityの使い方
-- Visual Studioについて
-  - Visual Studioとは
-  - Visual Studio Communityのダウンロード
-  - Visual Studioの使い方
-- 学習の進めかた
-  - Unityの学び方
-  - C#の学び方
-  - Unityスクリプトリファレンスの使い方
-- C#の基礎
-  - コードの読み方
-  - 変数と関数とは
-  - 変数と関数の見分け方
-
 @olend
 
 @snapend
@@ -56,117 +36,27 @@ https://www.youtube.com/watch?v=ruAN7e4wRwg
 
 ---?color=#3A8FB7
 
-
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
+- [講座の流れ](#/2)
+- [1. Unityの基礎](#/)
 @olend
 @snapend
 
 @snap[west headline]
-## 地点データの追加
+## Unityの基礎
 @snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
+- [講座の流れ](#/2)
+- [1. Unityの基礎](#/)
+- [1. Unityとは](#/)
 @olend
 @snapend
 
-### @css[slide-title](地点データの追加)
-
-@snap[slide-contents]
-
-@box[rounded box-style](Phoenix を使ってDBとの連携をします。)
-
-@snap[left-column]
-@ol[numberlist numberlist-color2](false)
-- [外部データからの追加](#/)
-- [DBとは](#/)
-- [SQLとは](#/)
-- [Tableの設計](#/)
-- [ルートの設定](#/)
-- [テーブルの生成](#/)
-@olend
-@snapend
-
-@snap[right-column]
-@ol[numberlist numberlist-color2 start-7](false)
-- [表示の確認](#/)
-- [緯度・経度を調べる](#/)
-- [DBへの入力](#/)
-- [入力・修正・削除](#/)
-@olend
-@snapend
-
-@snapend
-
-
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [1. 外部データからの追加](#/)
-@olend
-@snapend
-
-@snap[west headline]
-## @color[white](外部データからの<br>追加)
-@snapend
-
----
-@snap[breadcrumbs-wrap]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [1. 外部データからの追加](#/)
-@olend
-@snapend
-
-### @css[slide-title](外部データからの追加)
-
-@snap[slide-contents]
-@snap[gist-box]
-
-@fa[external-link]
-<u>https://gist.github.com/Yoosuke/ec1b601b0f7bad26fc15629634c86d1b</u>
-
-@gist[js zoom-08](Yoosuke/ec1b601b0f7bad26fc15629634c86d1b)
-
-@[1](緯度経度を記載する箇所を<%= latitude >、<%= longitude %>に変更します。)
-@[7-8](<%= latitude %>、<%= longitude %>、<%= locationName　%>を変更します。)
-
-@snapend
-@snapend
-
-
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [2. DBとは](#/)
-@olend
-@snapend
-
-@snap[west headline]
-## @color[white](DBとは)
-@snapend
-
----
-@snap[breadcrumbs-wrap]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [2. DBとは](#/)
-@olend
-@snapend
-
-### @css[slide-title](DBとは)
+### @css[slide-title](Unityとは)
 
 @snap[slide-contents]
 
@@ -174,325 +64,258 @@ https://www.youtube.com/watch?v=ruAN7e4wRwg
 
 @snapend
 
-
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
+---
+@snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [3. SQLとは](#/)
+- [講座の流れ](#/2)
+- [1. Unityの基礎](#/)
+- [2. Unityのダウンロード](#/)
 @olend
 @snapend
 
-@snap[west headline]
-## @color[white](SQLとは)
+### @css[slide-title](Unityのダウンロード)
+
+@snap[slide-contents]
+
+@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+
 @snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [3. SQLとは](#/)
+- [講座の流れ](#/2)
+- [1. Unityの基礎](#/)
+- [3. Unityの使い方](#/)
 @olend
 @snapend
 
-### @css[slide-title](SQLとは)
+### @css[slide-title](Unityの使い方)
 
 @snap[slide-contents]
 
-@box[rounded box-style](SQL(Structured Query Language)とは、RDBで、データベースのオブジェクトに対して、定義や変更、データの操作などを行う言語です。)
-
-SQLは大きく３つの体系から分類できます。
-@ol[numberlist numberlist-color2](false)
-- データ操作 (SELECT, INSERT, UPDATA, DELETE)
-- データ定義 (CREATE TABLE, DROP TABLE...)
-- データ制御 (START TRANSACTION...)
-@olend
+@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
 
 @snapend
 
+---?color=#3A8FB7
 
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
+@snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [4. Tableの設計](#/)
+- [講座の流れ](#/2)
+- [2. Visual Studioについて](#/)
 @olend
 @snapend
 
 @snap[west headline]
-## @color[white](Tableの設計)
+## Visual Studioについて
+@snapend
+  
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [2. Visual Studioについて](#/)
+- [1. Visual Studioとは](#/)
+@olend
+@snapend
+
+### @css[slide-title](Visual Studioとは)
+
+@snap[slide-contents]
+
+@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+
 @snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [4. Tableの設計](#/)
+- [講座の流れ](#/2)
+- [2. Visual Studioについて](#/)
+- [2. Visual Studio Communityのダウンロード](#/)
 @olend
 @snapend
 
-### @css[slide-title](Tableの設計)
+### @css[slide-title](Visual Studio Communityのダウンロード)
 
 @snap[slide-contents]
 
-@box[rounded box-style](**CUI** を利用して、Tableの設計します。)
+@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
 
-@ol[numberlist numberlist-color2](false)
-- [```mix phx.gen.html AED Location locations latitude:float longitude:float locationName:string```](#/)
-- [上記のコマンドを貼り付けます。](#/)
-- [コマンドが実行されると、次のような内容が表示されます。](#/)
-- [```resources "/locations", LocationController```](#/)
-- [上記のコマンドをコピーします。](#/)
-@olend
-
-@snapend
-
-
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [5. ルートの設定](#/)
-@olend
-@snapend
-
-@snap[west headline]
-## @color[white](ルートの設定)
 @snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [5. ルートの設定](#/)
+- [講座の流れ](#/2)
+- [2. Visual Studioについて](#/)
+- [3. Visual Studioの使い方](#/)
 @olend
 @snapend
 
-### @css[slide-title](ルートの設定)
+### @css[slide-title](Visual Studioの使い方)
 
 @snap[slide-contents]
 
-@box[rounded box-style](**Visual Studio Code** を利用します。```router.ex```のファイルを開きます。)
-
-@ol[numberlist numberlist-color2](false)
-- [```lib/aedmap_web/router.ex```を開きます。](#/)
-- [```scope "/", AedmapWeb do pipe_through :browser```と書かれている箇所を探します](#/)
-- [```get "/", PageController, :index```の直下に以下をペーストします。](#/)
-- [```resources "/locations", LocationController```](#/)
-@olend
+@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
 
 @snapend
 
+---?color=#3A8FB7
 
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
+@snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [6. テーブルの生成](#/)
+- [講座の流れ](#/2)
+- [3. 学習の進めかた](#/)
 @olend
 @snapend
 
 @snap[west headline]
-## @color[white](テーブルの生成)
+## 学習の進めかた
 @snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [6. テーブルの生成](#/)
+- [講座の流れ](#/2)
+- [3. 学習の進めかた](#/)
+- [1. Unityの学び方](#/)
 @olend
 @snapend
 
-### @css[slide-title](テーブルの生成)
+### @css[slide-title](Unityのダウンロード)
 
 @snap[slide-contents]
 
-@box[rounded box-style](**CUI** を利用します。コマンドを利用して設計したテーブルを生成します。)
+@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
 
-@ol[numberlist numberlist-color2](false)
-- [```mix ecto.migrate```](#/)
-- [上記のコマンドをCUIにペーストします。](#/)
-- [errorが表示されなければ成功です。](#/)
-- [```iex -S mix phx.server ```](#/)
-- [上記のコマンドをペーストして、サーバーを起動します。](#/)
-@olend
-
-@snapend
-
-
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [7. 表示の確認](#/)
-@olend
-@snapend
-
-@snap[west headline]
-## @color[white](表示の確認)
 @snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [7. 表示の確認](#/)
+- [講座の流れ](#/2)
+- [3. 学習の進めかた](#/)
+- [2. C#の学び方](#/)
 @olend
 @snapend
 
-### @css[slide-title](表示の確認)
+### @css[slide-title](Unityのダウンロード)
 
 @snap[slide-contents]
 
-@box[rounded box-style](**ブラウザ** を利用します。URL：```http://localhost:4000/locations```から追加したページが表示される事を確認します。)
+@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
 
-@snap[left-column]
-@ol[numberlist numberlist-color2](false)
-- [URLに```/locations```を追記する](#/)
-@olend
-@snapend
-
-@snap[right-column]
-@img[goal-image to-center](template/img/add-location-data/locations.png)
-
-@snapend
-
-@snapend
-
-
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [8. 緯度・経度を調べる](#/)
-@olend
-@snapend
-
-@snap[west headline]
-## @color[white](緯度・経度<br>を調べる)
 @snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [8. 緯度・経度を調べる](#/)
+- [講座の流れ](#/2)
+- [3. 学習の進めかた](#/)
+- [3. Unityスクリプトリファレンスの使い方](#/)
 @olend
 @snapend
 
-### @css[slide-title](緯度・経度を調べる)
+### @css[slide-title](Unityのダウンロード)
 
 @snap[slide-contents]
 
-@fa[external-link]
-[AED設置場所](http://opendata-catalogue.metro.tokyo.jp/dataset/t131091d0000000006)ページの、
-AED設置場所csvデータをダウンロードします。<br>
+@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
 
-@box[rounded box-style](**ブラウザ**を利用します。CSVデータにある緯度経度を入力します。無いデータは調べる事ができます。)
-
-
-@ol[numberlist numberlist-color2](false)
-- 緯度と経度をコピーします。
-- 緯度と経度が無いデータがあった場合
-- [Yahoo!地図で緯度・経度を調べる **<-クリック** ](https://user.numazu-ct.ac.jp/~tsato/webmap/sphere/coordinates/yahoo_olp/)
-
-@olend
 @snapend
 
+---?color=#3A8FB7
 
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
+@snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [9. DBへの入力](#/)
+- [講座の流れ](#/2)
+- [4. おすすめする勉強サイト](#/)
 @olend
 @snapend
 
 @snap[west headline]
-## @color[white](DBへの入力)
+## おすすめする勉強サイト
 @snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [9. DBへの入力](#/)
+- [講座の流れ](#/2)
+- [4. おすすめする勉強サイト](#/)
+- [1. おすすめする勉強サイト](#/)
 @olend
 @snapend
 
-### @css[slide-title](DBへの入力)
+### @css[slide-title](おすすめする勉強サイト)
 
 @snap[slide-contents]
 
-@box[rounded box-style](**ブラウザ**を利用します。```http://localhost:4000/locations```)
-
-@snap[left-column]
-
-@ol[numberlist numberlist-color2](false)
-- [New Locationをクリック](http://localhost:4000/locations/new)
-- 緯度経度や名前を入力
-- SAVEをクリック
-@olend
+@box[rounded box-style](https://www.youtube.com/watch?v=ruAN7e4wRwg)
 
 @snapend
 
-@snap[right-column]
+---?color=#3A8FB7
 
-@img[goal-image to-center](template/img/add-location-data/newlocation.png)
-
-@snapend
-
-@snapend
-
-
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
+@snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [10. 入力・修正・削除](#/)
+- [講座の流れ](#/2)
+- [5. C#の基礎](#/)
 @olend
 @snapend
 
 @snap[west headline]
-## @color[white](入力・修正・削除)
+## C#の基礎
 @snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [11. 地点データの追加](#/)
-- [10. 入力・修正・削除](#/)
+- [講座の流れ](#/2)
+- [5. C#の基礎](#/)
+- [1. コードの読み方](#/)
 @olend
 @snapend
 
-### @css[slide-title](入力・修正・削除)
+### @css[slide-title](コードの読み方)
 
 @snap[slide-contents]
 
-@box[rounded box-style](**ブラウザ**を利用します。```http://localhost:4000/locations```のページから、それぞれ入力・修正・削除ができます。)
-
-@ol[numberlist numberlist-color2](false)
-- [もう１件データを追加します](#/)
-- 礫川地域活動センター, 35.711938、 139.750418
-@olend
-
+@box[rounded box-style](https://www.youtube.com/watch?v=ruAN7e4wRwg)
 
 @snapend
 
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [5. C#の基礎](#/)
+- [2. 変数と関数とは](#/)
+@olend
+@snapend
+
+### @css[slide-title](変数と関数とは)
+
+@snap[slide-contents]
+
+@box[rounded box-style](https://www.youtube.com/watch?v=ruAN7e4wRwg)
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [5. C#の基礎](#/)
+- [3. 変数と関数の見分け方](#/)
+@olend
+@snapend
+
+### @css[slide-title](C#変数と関数の見分け方)
+
+@snap[slide-contents]
+
+@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+
+@snapend

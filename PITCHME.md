@@ -14,6 +14,9 @@
 ## 講師　松本 有生
 
 バンタンゲームアカデミー講師
+@snap[byline headline-detail color4]
+@size[0.75em](つくるUOZUプロジェクト)
+@snapend
 
 ---
 ### @css[slide-title](講座の流れ)

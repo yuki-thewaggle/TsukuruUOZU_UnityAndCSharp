@@ -1,5 +1,10 @@
 ---?color=#3A8FB7
-# ゲーム開発エンジンUnityとC#の基礎を学ぶ講座
+
+@snap[headline]
+
+@snap[byline headline-detail color4]
+@size[0.75em](ゲーム開発エンジンUnityとC#の基礎を学ぶ講座)
+@snapend
 
 ---
 

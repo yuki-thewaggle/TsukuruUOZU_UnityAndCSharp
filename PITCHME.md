@@ -13,9 +13,9 @@
 
 ## 講師　松本 有生
 
-合同会社ザワッグル　デザイナー・エンジニア
-アステリソフト合同会社　エンジニア
-バンタンゲームアカデミー高等部　講師
+合同会社ザワッグル　デザイナー・エンジニア<br>
+アステリソフト合同会社　エンジニア<br>
+バンタンゲームアカデミー高等部　講師<br>
 
 ---
 ### @css[slide-title](講座の流れ)
@@ -23,13 +23,14 @@
 @snap[slide-contents]
 
 @ol[numberlist numberlist-color1](false)
-- Unity について			@css[detail-comment](Webの仕組みやプログラミングに必要な知識を学ぶ)
-- Visual Studio について	@css[detail-comment](DBからデータを取得してWebページに表示する)
-- Visual Studio Communityのダウンロード		@css[detail-comment](Webサイトにページを追加する)
-- Visual Studioの使い方		@css[detail-comment](自分の位置情報を取得してWebページに表示する)
-- Unityスクリプトリファレンスの使い方
-- その他の便利なツール	@css[detail-comment](地図アプリを作成するのに便利なツールを知る)
+- Unityの基礎  @css[detail-comment](Unity のダウンロード)
+- Visual Studioについて	@css[detail-comment](DBからデータを取得してWebページに表示する)
+- 学習の進めかた @css[detail-comment](Unity のダウンロード)
+- C#の基礎 @css[detail-comment](C#の基礎文法について学ぶ)
+- おすすめする勉強サイト	@css[detail-comment](独学する際におすすめするWebページ一覧)
 
+以下メモ
+https://www.youtube.com/watch?v=ruAN7e4wRwg
 - Unityとは
 - Unityのダウンロード
 - Unityの使い方

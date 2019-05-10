@@ -2,6 +2,7 @@
 
 ### ゲーム開発エンジンUnityとC#の基礎を学ぶ講座
 
+---
 
 ## 簡単な説明
 [事前準備](https://gist.github.com/Yoosuke/65873bff61ae66bd4ad1d23180a927f3)

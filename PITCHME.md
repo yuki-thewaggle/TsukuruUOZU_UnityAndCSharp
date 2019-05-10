@@ -11,13 +11,9 @@
 
 ---?color=#3A8FB7
 
-@snap[headline]
-### @css[slide-title](講師　松本 有生)
-@snapend
+## 講師　松本 有生
 
-@snap[slide-contents]
 バンタンゲームアカデミー講師
-@snapend
 
 ---
 ### @css[slide-title](講座の流れ)

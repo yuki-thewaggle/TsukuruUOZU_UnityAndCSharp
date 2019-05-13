@@ -13,9 +13,10 @@
 
 ## 講師　松本 有生
 
+* バンタンゲームアカデミー高等部　講師
 * 合同会社ザワッグル　デザイナー・エンジニア
 * アステリソフト合同会社　エンジニア
-* バンタンゲームアカデミー高等部　講師
+
 
 ---
 
@@ -81,7 +82,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](まずUnity Hubをインストールし、Unity HubからUnityをインストールします)
+@box[rounded box-style](まずUnity Hubをインストールし、<br>Unity HubからUnityをインストールします)
 
 @ol[numberlist numberlist-color4](true)
 - <u>[Unity Personalで今すぐスタート](https://store.unity.com/ja/download?ref=personal)</u>にアクセスします。
@@ -109,10 +110,10 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](Unityの使い方を学ぶには、公式サイトにあるマニュアルとチュートリアルが効果的です)
+@box[rounded box-style](Unityの使い方を学ぶには、<br>公式のマニュアルとチュートリアルが効果的です)
 
-[マニュアル](https://docs.unity3d.com/ja/current/Manual/UnityManual.html)：Unityの操作が説明されています。
-[チュートリアル](https://unity3d.com/jp/learn/tutorials)：ゲームを作りながらUnityを学べます。
+* [マニュアル](https://docs.unity3d.com/ja/current/Manual/UnityManual.html)：Unityの操作が説明されています。
+* [チュートリアル](https://unity3d.com/jp/learn/tutorials)：ゲームを作りながらUnityを学べます。
 
 @snapend
 

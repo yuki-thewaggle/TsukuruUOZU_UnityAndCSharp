@@ -85,12 +85,12 @@
 
 @ol[numberlist numberlist-color4](true)
 - <u>[Unity Personalで今すぐスタート](https://store.unity.com/ja/download?ref=personal)</u>にアクセスします。
-- 「**条件に同意する**」をチェックします。
-- 「**Unity Hubをダウンロード**」をクリックしてインストールします。
+- **条件に同意する** をチェックします。
+- **Unity Hubをダウンロード** をクリックしてインストールします。
 - Unity Hubを起動します。
-- 上部の黒い帯にある「**Installs**」の文字をクリックします。
-- 左側にある「**Official Releases**」をクリックします。
-- 「**Unity 2018.3.〇〇**」の「**ダウンロード**」をクリックします。
+- 上部の黒い帯にある **Installs** の文字をクリックします。
+- 左側にある **Official Releases** をクリックします。
+- **Unity 2018.3.〇〇** の **ダウンロード** をクリックします。
 - Unityがインストールされます。
 @olend
 

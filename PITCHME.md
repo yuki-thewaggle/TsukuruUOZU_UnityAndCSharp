@@ -13,9 +13,9 @@
 
 ## 講師　松本 有生
 
-@size[0.8em](合同会社ザワッグル　デザイナー・エンジニア)
-@size[0.8em](アステリソフト合同会社　エンジニア)
-@size[0.8em](バンタンゲームアカデミー高等部　講師)
+* 合同会社ザワッグル　デザイナー・エンジニア
+* アステリソフト合同会社　エンジニア
+* バンタンゲームアカデミー高等部　講師
 
 ---
 
@@ -81,7 +81,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](Unity Hubをダウンロードしたのち、Unityのバージョンを選択してインストールします)
+@box[rounded box-style](まずUnity Hubをインストールし、Unity HubからUnityをインストールします)
 
 @ol[numberlist numberlist-color4](true)
 - <u>[Unity Personalで今すぐスタート](https://store.unity.com/ja/download?ref=personal)</u>にアクセスします。
@@ -91,12 +91,8 @@
 - 上部の黒い帯にある「**Installs**」の文字をクリックします。
 - 左側にある「**Official Releases**」をクリックします。
 - 「**Unity 2018.3.〇〇**」の「**ダウンロード**」をクリックします。
-> Windowsの場合、インストールを許可します。
-- Macの場合、アイコンをフォルダにドラッグします。
-- インストールされます。
+- Unityがインストールされます。
 @olend
-
-@box[rounded box-style]()
 
 @snapend
 
@@ -113,7 +109,10 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+@box[rounded box-style](Unityの使い方を学ぶには、公式サイトにあるマニュアルとチュートリアルが効果的です)
+
+[マニュアル](https://docs.unity3d.com/ja/current/Manual/UnityManual.html)：Unityの操作が説明されています。
+[チュートリアル](https://unity3d.com/jp/learn/tutorials)：ゲームを作りながらUnityを学べます。
 
 @snapend
 

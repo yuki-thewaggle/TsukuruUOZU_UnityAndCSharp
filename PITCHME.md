@@ -62,7 +62,7 @@
 @snap[slide-contents]
 
 @snap[quote-wrap]
-@quote[<ul><li>世界で最も使われているゲームエンジン</li><li>1回ビルドするだけで、どのプラットフォームにも展開可能</li><li>世の中のVRとARの3分の2以上で利用</li></ul>](https://unity3d.com/jp/unity?_ga=2.143241141.1809899379.1557457118-1033807694.1557457118)
+@quote[<ul><li>世界で最も使われているゲームエンジン（ゲーム開発に便利なソフトウェア）</li><li>1回ビルドするだけで、どのプラットフォームにも展開可能</li><li>世の中のVRとARの3分の2以上で利用</li></ul>](https://unity3d.com/jp/unity?_ga=2.143241141.1809899379.1557457118-1033807694.1557457118)
 @snapend
 
 [Unity公式サイト](https://unity3d.com/jp/)
@@ -143,7 +143,9 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+@snap[quote-wrap]
+@quote[<ul><li>統合開発環境（コードの記述からプログラムの実行までできるソフトウェア）</li><li>複数の言語に対応（C#、C++、JavaScriptほか）</li></ul>](https://docs.microsoft.com/ja-jp/visualstudio/ide/?view=vs-2019)
+@snapend
 
 @snapend
 

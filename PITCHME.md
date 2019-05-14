@@ -91,7 +91,7 @@
 - Unity Hubを起動します。
 - 上部の黒い帯にある **Installs** の文字をクリックします。
 - 左側にある **Official Releases** をクリックします。
-- **Unity 2018.3.〇〇** の **ダウンロード** をクリックします。
+- **Unity 2018.4.0f1 LTS** の **ダウンロード** をクリックします。
 - Unityがインストールされます。
 @olend
 
@@ -158,16 +158,16 @@
 @olend
 @snapend
 
-### @css[slide-title](Visual Studioのダウンロード)
+### @css[slide-title](Visual Studioのインストール)
 
 @snap[slide-contents]
 
-@box[rounded box-style](Visual Studioをダウンロードします)
+@box[rounded box-style](Visual Studioをインストールします)
 
 @ol[numberlist numberlist-color4](true)
 - <u>[Visual Studio ダウンロード](https://visualstudio.microsoft.com/ja/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019&rr=https%3A%2F%2Fdocs.microsoft.com%2Fja-jp%2Fvisualstudio%2Finstall%2Finstall-visual-studio%3Fview%3Dvs-2019)</u>にアクセスします。
 - **コミュニティ** をクリックします。
-
+- インストールします。
 @olend
 
 @snapend
@@ -185,7 +185,14 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+@box[rounded box-style](Visual StudioとUnityを連携します)
+
+@ol[numberlist numberlist-color4](true)
+- <u>[Visual Studio Tools for Unity の使用を開始する](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019#manual-installation)</u>にアクセスします。
+- **手動インストール** の手順で **Unity によるゲーム開発** をインストールします。
+-
+-
+@olend
 
 @snapend
 
@@ -254,7 +261,6 @@
 @snapend
 
 ---?color=#3A8FB7
-
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)

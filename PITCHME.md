@@ -112,7 +112,7 @@
 
 @box[rounded box-style](Unityの使い方を学ぶには、<br>公式のマニュアルとチュートリアルが効果的です)
 
-* [マニュアル](https://docs.unity3d.com/ja/current/Manual/UnityManual.html)：Unityの操作が説明されています。
+* [マニュアル](https://docs.unity3d.com/ja/current/Manual/UnityManual.html)：Unityについて詳しく説明されています。
 * [チュートリアル](https://unity3d.com/jp/learn/tutorials)：ゲームを作りながらUnityを学べます。
 
 @snapend
@@ -154,15 +154,21 @@
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [2. Visual Studioについて](#/)
-- [2. Visual Studio Communityのダウンロード](#/)
+- [2. Visual Studioのダウンロード](#/)
 @olend
 @snapend
 
-### @css[slide-title](Visual Studio Communityのダウンロード)
+### @css[slide-title](Visual Studioのダウンロード)
 
 @snap[slide-contents]
 
-@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+@box[rounded box-style](Visual Studioをダウンロードします)
+
+@ol[numberlist numberlist-color4](true)
+- <u>[Visual Studio ダウンロード](https://visualstudio.microsoft.com/ja/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019&rr=https%3A%2F%2Fdocs.microsoft.com%2Fja-jp%2Fvisualstudio%2Finstall%2Finstall-visual-studio%3Fview%3Dvs-2019)</u>にアクセスします。
+- **コミュニティ** をクリックします。
+
+@olend
 
 @snapend
 

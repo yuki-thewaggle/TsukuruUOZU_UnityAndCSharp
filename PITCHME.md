@@ -190,8 +190,7 @@
 @ol[numberlist numberlist-color4](true)
 - <u>[Visual Studio Tools for Unity の使用を開始する](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019#manual-installation)</u>にアクセスします。
 - **手動インストール** の手順で **Unity によるゲーム開発** をインストールします。
--
--
+- **Visual Studio で使用するために Unity を構成する** の手順で設定します。
 @olend
 
 @snapend
@@ -218,11 +217,17 @@
 @olend
 @snapend
 
-### @css[slide-title](Unityのダウンロード)
+### @css[slide-title](Unityの学び方)
 
 @snap[slide-contents]
 
-@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+@box[rounded box-style](Unityは公式のチュートリアルが充実しています。チュートリアルに沿ってゲーム制作を行いながらUnityを学ぶのが効率的です。)
+
+@ul
+- <u>[Unityチュートリアル](https://unity3d.com/jp/learn/tutorials)（「Unity チュートリアル」で検索）
+
+@ulend
+
 
 @snapend
 

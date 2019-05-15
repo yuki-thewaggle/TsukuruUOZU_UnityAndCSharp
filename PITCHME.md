@@ -433,12 +433,28 @@ void Start ()
 [Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
 @snapend
 
-@code[](template/codes/PlayerController.cs)
-@[1-2]1-2行目：UnityやC＃にはあらかじめ用意されているプログラムがあります。このように記述すると例えば「UnityEngine」プログラムが使用できるようになります。
+```
+//UnityやC＃にはあらかじめ用意されているプログラムがあります。
+using UnityEngine;  //「UnityEngine」プログラムが使用できるようになります。
+using System.Collections; //「System.Collections」プログラムが使用できるようになります。
+
+//このスクリプトに「PlayerController」という名前をつけています。
+public class PlayerController : MonoBehaviour { //ここから★
+
+    public float speed; //「speed」という名前の 変数 を宣言しています。
+
+    private Rigidbody rb; //「rb」という名前の 変数 を宣言しています。
+
+    void Start () //「Start」という名前の 関数 を宣言しています。
+    { //ここから●
+        rb = GetComponent<Rigidbody>(); //「rb」という名前の 変数 に「GetComponent<Rigidbody>()」の値を設定しています。
+    } //●ここまでが「Start」の中身です。
+    
+}//★ここまでが「PlayerController」の中身です。
+```
 @[4]4行目：このスクリプトに「PlayerController」という名前をつけています。これに続く`{`から最終行の`}`までがこのスクリプトの中身です。
 @[6]6行目：**変数**の宣言部分です。同様に8行目も別の変数の宣言をしています。
 @[10]10行目：**関数**の宣言部分です。これに続く`{`から13行目の`}`までがこの関数の中身です。
-@[15-23]行目：別の関数の、宣言と中身の定義です。
 
 @snapend
 

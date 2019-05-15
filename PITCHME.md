@@ -398,7 +398,7 @@ float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
 
 @snap[slide-contents]
 
-@box[rounded box-style](関数にはデータを保存するための箱、とイメージするとわかりやすいです。<br>変数には3つの概念があります。)
+@box[rounded box-style](関数では、データをどのように処理させるかを指定します。<br>関数には4つの概念があります。)
 
 @ul
 - 関数の種類：**関数の型** @css[detail-comment](（処理した結果どのような種類の値を返すのかを表します）)

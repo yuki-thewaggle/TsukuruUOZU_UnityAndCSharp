@@ -299,7 +299,7 @@
 @snap[slide-contents]
 
 @snap[detail-comment]
-[Unityチュートリアル「玉転がし」「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
+[Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
 @snapend
 
 ```

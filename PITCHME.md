@@ -383,6 +383,7 @@ void Start ()
 @snapend
 
 @snap[code-contents]
+
 ```
 //UnityやC＃にはあらかじめ用意されているプログラムがあります。
 using UnityEngine;  //「UnityEngine」プログラムが使用できるようになります。
@@ -402,6 +403,7 @@ public class PlayerController : MonoBehaviour { //ここから★
     
 }//★ここまでが「PlayerController」の中身です。
 ```
+
 @snapend
 
 @snapend

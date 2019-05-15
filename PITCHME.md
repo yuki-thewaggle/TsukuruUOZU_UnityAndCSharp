@@ -398,7 +398,7 @@ public class PlayerController : MonoBehaviour { //ここから★
     void Start () //「Start」という名前の 関数 を宣言しています。
     { //ここから●
         rb = GetComponent<Rigidbody>(); //「rb」という名前の 変数 に「GetComponent<Rigidbody>()」の値を設定しています。
-    } //●ここまでが「Start」の中身です。
+    } //●ここまでが「Start」関数の中身です。
     
 }//★ここまでが「PlayerController」の中身です。
 ```

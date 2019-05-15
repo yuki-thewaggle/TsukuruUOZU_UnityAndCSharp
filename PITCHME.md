@@ -227,7 +227,6 @@
 
 @ul
 - <u>[Unityチュートリアル](https://unity3d.com/jp/learn/tutorials)（「Unity チュートリアル」で検索）
-
 @ulend
 
 
@@ -242,11 +241,13 @@
 @olend
 @snapend
 
-### @css[slide-title](Unityのダウンロード)
+### @css[slide-title](C#の学び方)
 
 @snap[slide-contents]
 
-@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+@box[rounded box-style](Unityの公式チュートリアルを進めていくと、C#のスクリプトについても同時に学べます。)
+
+その他に興味のある方は、専門書や専門サイトなどで勉強すると知識が深まります。
 
 @snapend
 

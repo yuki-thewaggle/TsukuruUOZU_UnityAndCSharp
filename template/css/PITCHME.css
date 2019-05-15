@@ -176,6 +176,10 @@ strong {
 
 .slide-contents .code-contents {
   width: 100%;
+  font-size: 0.8em;
+}
+.slide-contents pre.code-contents {
+  width: 100%;
   font-size: 0.5em;
 }
 .slide-contents pre {

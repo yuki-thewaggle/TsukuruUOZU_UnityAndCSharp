@@ -363,7 +363,7 @@ public class PlayerController : MonoBehaviour {
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [4. C＃の基礎](#/)
-- [3. 変数と関数の見分け方](#/)
+- [3. 変数について](#/)
 @olend
 @snapend
 
@@ -382,5 +382,37 @@ public class PlayerController : MonoBehaviour {
 ```
 型    識別子           代入  値                           文の終わりを示す
 float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
+```
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [4. C＃の基礎](#/)
+- [4. 関数について](#/)
+@olend
+@snapend
+
+### @css[slide-title](変数について)
+
+@snap[slide-contents]
+
+@box[rounded box-style](関数にはデータを保存するための箱、とイメージするとわかりやすいです。<br>変数には3つの概念があります。)
+
+@ul
+- 関数の種類：**関数の型** @css[detail-comment](（処理した結果どのような種類の値を返すのかを表します）)
+- 関数の名前：**識別子** @css[detail-comment](（ルールにしたがって自分でつけます）)
+- 処理させたいデータ：**引数** @css[detail-comment](（処理させたいデータがあるときに指定します）)
+- 関数の中身：**定義** @css[detail-comment](（`{`と`}`で囲った中に記述します）)
+@ulend
+
+```
+型   識別子  引数（空のカッコの場合は引数なし）
+void Start ()
+{
+    定義
+    rb = GetComponent<Rigidbody>();
+}
 ```
 @snapend

@@ -62,10 +62,10 @@
 @snap[slide-contents]
 
 @snap[quote-wrap]
-@quote[<ul><li>世界で最も使われているゲームエンジン（ゲーム開発に便利なソフトウェア）</li><li>1回ビルドするだけで、どのプラットフォームにも展開可能</li><li>世の中のVRとARの3分の2以上で利用</li></ul>](https://unity3d.com/jp/unity?_ga=2.143241141.1809899379.1557457118-1033807694.1557457118)
+@quote[<ul><li>世界で最も使われているゲームエンジン（ゲーム開発に便利なソフトウェア）</li><li>1回ビルドするだけで、どのプラットフォームにも展開可能</li><li>世の中のVRとARの3分の2以上で利用</li></ul>](https://unity3d.com/jp/unity)
 @snapend
 
-[Unity公式サイト](https://unity3d.com/jp/)
+[Unity公式サイト](https://unity3d.com/jp/) **（「unity 製品」で検索）**
 
 @snapend
 
@@ -85,14 +85,13 @@
 @box[rounded box-style](まずUnity Hubをインストールし、<br>Unity HubからUnityをインストールします)
 
 @ol[numberlist numberlist-color4](true)
-- <u>[Unity Personalで今すぐスタート](https://store.unity.com/ja/download?ref=personal)</u>にアクセスします。
+- <u>[Unity Personalで今すぐスタート](https://store.unity.com/ja/download?ref=personal)</u>にアクセスします。 **（つくるUOZUプロジェクトの本イベントページにあるリンク、または「unity Personal」で検索）**
 - **条件に同意する** をチェックします。
 - **Unity Hubをダウンロード** をクリックしてインストールします。
 - Unity Hubを起動します。
-- 上部の黒い帯にある **Installs** の文字をクリックします。
-- 左側にある **Official Releases** をクリックします。
-- **Unity 2018.4.0f1 LTS** の **ダウンロード** をクリックします。
-- Unityがインストールされます。
+- **Installs** または　**インストール** の文字をクリックします。
+- **Official Releases** または **インストール** をクリックします。
+- **Unity 2018.4.0f1 LTS** を選択してインストールします。
 @olend
 
 @snapend
@@ -112,8 +111,10 @@
 
 @box[rounded box-style](Unityの使い方を学ぶには、<br>公式のマニュアルとチュートリアルが効果的です)
 
-* [マニュアル](https://docs.unity3d.com/ja/current/Manual/UnityManual.html)：Unityについて詳しく説明されています。
-* [チュートリアル](https://unity3d.com/jp/learn/tutorials)：ゲームを作りながらUnityを学べます。
+* [マニュアル](https://docs.unity3d.com/ja/current/Manual/UnityManual.html) **（「unity マニュアル」で検索）**
+  * Unityについて詳しく説明されています。
+* [チュートリアル](https://unity3d.com/jp/learn/tutorials) **（「unity チュートリアル」で検索）**
+   * ゲームを作りながらUnityを学べます。
 
 @snapend
 
@@ -147,6 +148,8 @@
 @quote[<ul><li>統合開発環境（コードの記述からプログラムの実行までできるソフトウェア）</li><li>複数の言語に対応（C#、C++、JavaScriptほか）</li></ul>](https://docs.microsoft.com/ja-jp/visualstudio/ide/?view=vs-2019)
 @snapend
 
+[Visual Studio IDE ドキュメント](https://docs.microsoft.com/ja-jp/visualstudio/ide/?view=vs-2019) **（「visual studio ドキュメント 学習」で検索）**
+
 @snapend
 
 ---
@@ -165,9 +168,8 @@
 @box[rounded box-style](Visual Studioをインストールします)
 
 @ol[numberlist numberlist-color4](true)
-- <u>[Visual Studio ダウンロード](https://visualstudio.microsoft.com/ja/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019&rr=https%3A%2F%2Fdocs.microsoft.com%2Fja-jp%2Fvisualstudio%2Finstall%2Finstall-visual-studio%3Fview%3Dvs-2019)</u>にアクセスします。
-- **コミュニティ** をクリックします。
-- インストールします。
+- <u>[Visual Studio のインストール](https://docs.microsoft.com/ja-jp/visualstudio/install/install-visual-studio?view=vs-2019)</u>にアクセスします。 **（「visual studio ダウンロード」で検索）**
+- ページの記述にしたがってインストールします。
 @olend
 
 @snapend
@@ -188,7 +190,7 @@
 @box[rounded box-style](Visual StudioとUnityを連携します)
 
 @ol[numberlist numberlist-color4](true)
-- <u>[Visual Studio Tools for Unity の使用を開始する](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019#manual-installation)</u>にアクセスします。
+- <u>[Visual Studio Tools for Unity の使用を開始する](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019)</u>にアクセスします。 **（「visual studio unity」で検索）**
 - **手動インストール** の手順で **Unity によるゲーム開発** をインストールします。
 - **Visual Studio で使用するために Unity を構成する** の手順で設定します。
 @olend

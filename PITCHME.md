@@ -289,58 +289,7 @@
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [4. C＃の基礎](#/)
-- [1. コードの読み方](#/)
-@olend
-@snapend
-
-### @css[slide-title](コードの読み方)
-
-@snap[slide-contents]
-
-@snap[detail-comment]
-[Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
-@snapend
-
-```
-using UnityEngine;
-using System.Collections;
-
-public class PlayerController : MonoBehaviour {
-
-    public float speed;
-
-    private Rigidbody rb;
-
-    void Start ()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
-
-    void FixedUpdate ()
-    {
-        float moveHorizontal = Input.GetAxis ("Horizontal");
-        float moveVertical = Input.GetAxis ("Vertical");
-
-        Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-
-        rb.AddForce (movement * speed);
-    }
-}
-```
-@[1-2]1-2行目：UnityやC＃にはあらかじめ用意されているプログラムがあります。このように記述すると例えば「UnityEngine」プログラムが使用できるようになります。
-@[4]4行目：このスクリプトに「PlayerController」という名前をつけています。これに続く`{`から最終行の`}`までがこのスクリプトの中身です。
-@[6]6行目：**変数**の宣言部分です。同様に8行目も別の変数の宣言をしています。
-@[10]10行目：**関数**の宣言部分です。これに続く`{`から13行目の`}`までがこの関数の中身です。
-@[15-23]行目：別の関数の、宣言と中身の定義です。
-
-@snapend
-
----
-@snap[breadcrumbs-wrap]
-@ol[breadcrumbs](false)
-- [講座の流れ](#/2)
-- [4. C＃の基礎](#/)
-- [2. 変数と関数とは](#/)
+- [1. 変数と関数とは](#/)
 @olend
 @snapend
 
@@ -362,7 +311,7 @@ public class PlayerController : MonoBehaviour {
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [4. C＃の基礎](#/)
-- [3. 変数について](#/)
+- [2. 変数について](#/)
 @olend
 @snapend
 
@@ -389,7 +338,7 @@ float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [4. C＃の基礎](#/)
-- [4. 関数について](#/)
+- [3. 関数について](#/)
 @olend
 @snapend
 
@@ -421,7 +370,7 @@ void Start ()
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [4. C＃の基礎](#/)
-- [5. コードの読み方](#/)
+- [4. コードの読み方](#/)
 @olend
 @snapend
 

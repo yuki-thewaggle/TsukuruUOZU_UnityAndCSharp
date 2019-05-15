@@ -226,7 +226,7 @@
 @box[rounded box-style](Unityは公式のチュートリアルが充実しています。チュートリアルに沿ってゲーム制作を行いながらUnityを学ぶのが効率的です。)
 
 @ul
-- <u>[Unityチュートリアル](https://unity3d.com/jp/learn/tutorials)（「Unity チュートリアル」で検索）
+- <u>[Unityチュートリアル](https://unity3d.com/jp/learn/tutorials)（「unity チュートリアル」で検索）
 @ulend
 
 
@@ -260,40 +260,17 @@
 @olend
 @snapend
 
-### @css[slide-title](Unityのダウンロード)
+### @css[slide-title](Unityスクリプトリファレンスの使い方)
 
 @snap[slide-contents]
 
-@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+@box[rounded box-style](Unityでスクリプトを書いていて知りたいワードが出てきたときは、公式のスクリプトリファレンスで検索して学びます。)
 
-@snapend
-
----?color=#3A8FB7
-@snap[breadcrumbs-wrap bluescale]
-@ol[breadcrumbs](false)
-- [講座の流れ](#/2)
-- [4. おすすめする勉強サイト](#/)
-@olend
-@snapend
-
-@snap[west headline]
-## おすすめする勉強サイト
-@snapend
-
----
-@snap[breadcrumbs-wrap]
-@ol[breadcrumbs](false)
-- [講座の流れ](#/2)
-- [4. おすすめする勉強サイト](#/)
-- [1. おすすめする勉強サイト](#/)
-@olend
-@snapend
-
-### @css[slide-title](おすすめする勉強サイト)
-
-@snap[slide-contents]
-
-@box[rounded box-style](https://www.youtube.com/watch?v=ruAN7e4wRwg)
+@ol
+- <u>[Unityスクリプトリファレンスへようこそ](https://docs.unity3d.com/ja/current/ScriptReference/index.html)にアクセスします。（「unity スクリプトリファレンス」で検索）
+- 検索ボックスに知りたいワードを記入して検索します。
+- 該当するページを開いて学びます。
+@ulend
 
 @snapend
 
@@ -302,7 +279,7 @@
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
-- [5. C#の基礎](#/)
+- [4. C#の基礎](#/)
 @olend
 @snapend
 
@@ -314,7 +291,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
-- [5. C#の基礎](#/)
+- [4. C#の基礎](#/)
 - [1. コードの読み方](#/)
 @olend
 @snapend
@@ -331,7 +308,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
-- [5. C#の基礎](#/)
+- [4. C#の基礎](#/)
 - [2. 変数と関数とは](#/)
 @olend
 @snapend
@@ -348,7 +325,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
-- [5. C#の基礎](#/)
+- [4. C#の基礎](#/)
 - [3. 変数と関数の見分け方](#/)
 @olend
 @snapend

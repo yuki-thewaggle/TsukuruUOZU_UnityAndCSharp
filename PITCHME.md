@@ -382,7 +382,7 @@ void Start ()
 [Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
 @snapend
 
-<pre class="code">
+<pre class="code-contents">
 //UnityやC＃にはあらかじめ用意されているプログラムがあります。
 using UnityEngine;  //「UnityEngine」プログラムが使用できるようになります。
 using System.Collections; //「System.Collections」プログラムが使用できるようになります。

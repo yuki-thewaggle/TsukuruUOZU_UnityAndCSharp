@@ -264,8 +264,7 @@
 @box[rounded box-style](Unityのスクリプトで知りたいワードが出てきたときは、<br>公式のスクリプトリファレンスで検索して学びます。)
 
 @ol[numberlist numberlist-color4](true)
-- <u>[Unityスクリプトリファレンスへようこそ](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u>にアクセスします。@css[detail-comment](**
-「unity スクリプトリファレンス」で検索**)
+- <u>[Unityスクリプトリファレンスへようこそ](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u>にアクセスします。@css[detail-comment](**「unity スクリプトリファレンス」で検索**)
 - 検索ボックスに知りたいワードを記入して検索します。
 - 該当するページを開いて学びます。
 @olend

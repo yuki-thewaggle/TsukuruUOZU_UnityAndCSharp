@@ -224,10 +224,8 @@
 
 @ul
 - <u>[Unityチュートリアル](https://unity3d.com/jp/learn/tutorials)</u>@css[detail-comment](**「unity チュートリアル」で検索**)
-* <u>[マニュアル](https://docs.unity3d.com/ja/current/Manual/UnityManual.html) @css[detail-comment](**unity マニュアル」で検索**)
-  * Unityについて詳しく説明されています。
+- <u>[はじめてのUnity](http://tutorial.unity3d.jp/)</u>@css[detail-comment](**「はじめてのunity」で検索**)
 @ulend
-
 
 @snapend
 
@@ -244,7 +242,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](Unityの公式チュートリアルを進めていくと、C＃のスクリプトについても同時に学べます。)
+@box[rounded box-style](Unityの公式チュートリアルを進めていくと、<br>C＃のスクリプトについても同時に学べます。)
 
 その他に興味のある方は、<br>専門書や専門サイトなどで勉強すると知識が深まります。
 
@@ -265,12 +263,12 @@
 
 @box[rounded box-style](Unityのスクリプトで知りたいワードが出てきたときは、<br>公式のスクリプトリファレンスで検索して学びます。)
 
-@ol
+@ol[numberlist numberlist-color4](true)
 - <u>[Unityスクリプトリファレンスへようこそ](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u>にアクセスします。@css[detail-comment](**
 「unity スクリプトリファレンス」で検索**)
 - 検索ボックスに知りたいワードを記入して検索します。
 - 該当するページを開いて学びます。
-@ulend
+@olend
 
 @snapend
 
@@ -302,7 +300,7 @@
 
 [Unityチュートリアル「玉転がし」「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
 
-```C#
+```
 using UnityEngine;
 using System.Collections;
 
@@ -379,7 +377,7 @@ public class PlayerController : MonoBehaviour {
 - データの中身：**値** @css[detail-comment](（右辺から左辺にある識別子に代入するという形で中身を保存します）)
 @ulend
 
-```C#
+```
 型    識別子           代入  値                           文の終わりを示す
 float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
 ```

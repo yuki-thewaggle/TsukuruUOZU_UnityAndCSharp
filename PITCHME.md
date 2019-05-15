@@ -300,7 +300,38 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](https://www.youtube.com/watch?v=ruAN7e4wRwg)
+[Unityチュートリアル「玉転がし」「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
+```C#
+using UnityEngine;
+using System.Collections;
+
+public class PlayerController : MonoBehaviour {
+
+    public float speed;
+
+    private Rigidbody rb;
+
+    void Start ()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void FixedUpdate ()
+    {
+        float moveHorizontal = Input.GetAxis ("Horizontal");
+        float moveVertical = Input.GetAxis ("Vertical");
+
+        Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
+
+        rb.AddForce (movement * speed);
+    }
+}
+```
+@[1-2]1-2行目：UnityやC#にはあらかじめ用意されているプログラムがあります。このように記述すると例えば「UnityEngine」プログラムが使用できるようになります。
+@[4]4行目：このスクリプトに「PlayerController」という名前をつけています。これに続く`{`から最終行の`}`までがこのスクリプトの中身です。
+@[6]6行目：**変数**の宣言部分です。同様に8行目も別の変数の宣言をしています。
+@[10]10行目：**関数**の宣言部分です。これに続く`{`から13行目の`}`までがこの関数の中身です。
+@[15-23]行目：別の関数の、宣言と中身の定義です。
 
 @snapend
 
@@ -317,7 +348,12 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](https://www.youtube.com/watch?v=ruAN7e4wRwg)
+@box[rounded box-style](プログラムは「データ」と「処理」でできています。)
+
+@ul
+- データを保存する部分：**変数**
+- 処理する部分：**関数**
+@ulend
 
 @snapend
 
@@ -330,10 +366,20 @@
 @olend
 @snapend
 
-### @css[slide-title](C#変数と関数の見分け方)
+### @css[slide-title](変数について)
 
 @snap[slide-contents]
 
-@box[rounded box-style](DB 「Data Base」とは、特定の条件によって、まとめられたデータの集合です。よく利用されているDBの一つにRDB「Relational Data Base」というものがあります。RDBでは、Tableと呼ばれる表形式のようなデータ構造を利用します。)
+@box[rounded box-style](変数とはデータを保存するための箱、とイメージするとわかりやすいです。<br>変数には3つの概念があります。)
 
+@ul
+- データの種類：**型**（整数・文字列などあらかじめ決められているものと、自分で作るものとがあります）
+- データの名前：**識別子**（ルールにしたがって自分でつけます）
+- データの中身：**値**（右辺から左辺にある識別子に代入するという形で中身を保存します）
+@ulend
+
+```C#
+型    識別子           代入  値                           文の終わりを示す
+float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
+```
 @snapend

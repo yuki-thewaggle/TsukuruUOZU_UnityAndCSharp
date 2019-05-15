@@ -433,6 +433,7 @@ void Start ()
 [Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
 @snapend
 
+@snap[code-contents]
 ```
 //UnityやC＃にはあらかじめ用意されているプログラムがあります。
 using UnityEngine;  //「UnityEngine」プログラムが使用できるようになります。
@@ -452,9 +453,7 @@ public class PlayerController : MonoBehaviour { //ここから★
     
 }//★ここまでが「PlayerController」の中身です。
 ```
-@[4]4行目：このスクリプトに「PlayerController」という名前をつけています。これに続く`{`から最終行の`}`までがこのスクリプトの中身です。
-@[6]6行目：**変数**の宣言部分です。同様に8行目も別の変数の宣言をしています。
-@[10]10行目：**関数**の宣言部分です。これに続く`{`から13行目の`}`までがこの関数の中身です。
+@snapend
 
 @snapend
 

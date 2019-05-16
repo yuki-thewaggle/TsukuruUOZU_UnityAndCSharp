@@ -1,24 +1,20 @@
-using UnityEngine;
-using System.Collections;
+//UnityやC＃にはあらかじめ用意されているプログラムがあり、それを使うことを記述しています。
+using UnityEngine;  //「UnityEngine」プログラムが使用できるようになります。
+using System.Collections; //「System.Collections」プログラムが使用できるようになります。
 
-public class PlayerController : MonoBehaviour {
+//このスクリプトに「PlayerController」という名前をつけています。
+public class PlayerController : MonoBehaviour { //ここから…★
 
-    public float speed;
+    public float speed; //「speed」という名前の 変数 を宣言しています。
 
-    private Rigidbody rb;
+    private Rigidbody rb; //「rb」という名前の 変数 を宣言しています。
 
+    //「Start」という名前の 関数 を宣言しています。
     void Start ()
-    {
+    { //…ここから●
+
         rb = GetComponent<Rigidbody>();
-    }
 
-    void FixedUpdate ()
-    {
-        float moveHorizontal = Input.GetAxis ("Horizontal");
-        float moveVertical = Input.GetAxis ("Vertical");
+    } //●ここまでが「Start」関数の中身です。
 
-        Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-
-        rb.AddForce (movement * speed);
-    }
-}
+} //★ここまでが「PlayerController」の中身です。

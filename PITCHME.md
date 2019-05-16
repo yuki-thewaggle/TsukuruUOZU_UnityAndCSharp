@@ -418,7 +418,7 @@ void＜関数の型＞ Start＜識別子＞ ()＜引数：空のカッコの場�
 @snap[slide-contents]
 
 @snap[detail-comment]
-[Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
+[Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から一部転載
 @snapend
 
 @img[goal-image to-center](/template/img/PlayerController.png)

@@ -361,7 +361,7 @@ float＜型＞ moveHorizontal＜識別子＞ =＜代入＞ Input.GetAxis("Horizo
 @olend
 @snapend
 
-### @css[slide-title](変数について)
+### @css[slide-title](関数について)
 
 @snap[slide-contents]
 

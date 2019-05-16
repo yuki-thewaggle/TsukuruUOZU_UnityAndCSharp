@@ -424,7 +424,7 @@ void＜関数の型＞ Start＜識別子＞ ()＜引数：空のカッコの場�
 [Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
 @snapend
 
-@img[/template/img/PlayerController.png]
+@img[」（/template/img/PlayerController.png
 
 @snapend
 

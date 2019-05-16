@@ -61,7 +61,7 @@
 @snap[slide-contents]
 
 @snap[quote-wrap]
-@quote[<ul><li>世界で最も使われているゲームエンジン（ゲーム開発に便利なソフトウェア）</li><li>1回ビルドするだけで、どのプラットフォームにも展開可能</li><li>世の中のVRとARの3分の2以上で利用</li></ul>](https://unity3d.com/jp/unity)
+@quote[<ul><li>世界で最も使われているゲームエンジン（ゲーム開発に便利なソフトウェア）</li><li>1回ビルドするだけで、どのプラットフォーム（ソフトウェアが動作する環境）にも展開可能</li><li>世の中のVRとARの3分の2以上で利用</li></ul>](https://unity3d.com/jp/unity)
 @snapend
 
 <u>[The world’s leading

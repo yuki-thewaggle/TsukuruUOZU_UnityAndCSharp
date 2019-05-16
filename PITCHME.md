@@ -319,7 +319,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](変数とはデータを保存するための箱、とイメージするとわかりやすいです。<br>変数には3つの概念があります。)
+@box[rounded box-style](変数とはデータを保存するための箱である、<br>とイメージするとわかりやすいです。<br>変数には3つの概念があります。)
 
 @ul
 - データの種類：**型** @css[detail-comment](（整数・文字列などあらかじめ決められているものと、自分で作るものとがあります）)
@@ -327,9 +327,29 @@
 - データの中身：**値** @css[detail-comment](（右辺から左辺にある識別子に代入するという形で中身を保存します）)
 @ulend
 
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [4. C＃の基礎](#/)
+- [3. 変数の書き方](#/)
+@olend
+@snapend
+
+### @css[slide-title](変数の書き方)
+
+@snap[slide-contents]
+
+@box[rounded box-style](変数は「** 型 識別子 = 値 ; **」のように書きます。)
+
 ```
-型    識別子           代入  値                           文の終わりを示す
-float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
+float moveHorizontal   =   Input.GetAxis("Horizontal") ;
+
+↓
+
+float＜型＞ moveHorizontal＜識別子＞ =＜代入＞ Input.GetAxis("Horizontal")＜値＞ ;＜文の終わりを示す＞
 ```
 @snapend
 
@@ -338,7 +358,7 @@ float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [4. C＃の基礎](#/)
-- [3. 関数について](#/)
+- [4. 関数について](#/)
 @olend
 @snapend
 
@@ -355,12 +375,34 @@ float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
 - 関数の中身：**定義** @css[detail-comment](（`{`と`}`で囲った中に記述します）)
 @ulend
 
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [4. C＃の基礎](#/)
+- [5. 関数の書き方](#/)
+@olend
+@snapend
+
+### @css[slide-title](関数の書き方)
+
+@snap[slide-contents]
+
+@box[rounded box-style](関数は「** 関数の型 識別子 ( 引数 ) { 定義 } **」のように書きます。)
+
 ```
-型   識別子  引数（空のカッコの場合は引数なし）
 void Start ()
 {
-    定義
     rb = GetComponent<Rigidbody>();
+}
+
+↓
+
+void＜関数の型＞ Start＜識別子＞ ()＜引数：空のカッコの場合は引数なし＞
+{
+    rb = GetComponent<Rigidbody>();＜定義＞
 }
 ```
 @snapend
@@ -382,25 +424,7 @@ void Start ()
 [Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
 @snapend
 
-<pre class="code-contents">
-//UnityやC＃にはあらかじめ用意されているプログラムがあります。
-using UnityEngine;  //「UnityEngine」プログラムが使用できるようになります。
-using System.Collections; //「System.Collections」プログラムが使用できるようになります。
-
-//このスクリプトに「PlayerController」という名前をつけています。
-public class PlayerController : MonoBehaviour { //ここから★
-
-    public float speed; //「speed」という名前の 変数 を宣言しています。
-
-    private Rigidbody rb; //「rb」という名前の 変数 を宣言しています。
-
-    void Start () //「Start」という名前の 関数 を宣言しています。
-    { //ここから●
-        rb = GetComponent<Rigidbody>(); //「rb」という名前の 変数 に「GetComponent<Rigidbody>()」の値を設定しています。
-    } //●ここまでが「Start」関数の中身です。
-    
-}//★ここまでが「PlayerController」の中身です。
-</pre>
+@img[goal-image to-center](/template/img/PlayerController.png)
 
 @snapend
 

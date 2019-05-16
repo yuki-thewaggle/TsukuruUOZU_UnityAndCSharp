@@ -64,7 +64,8 @@
 @quote[<ul><li>世界で最も使われているゲームエンジン（ゲーム開発に便利なソフトウェア）</li><li>1回ビルドするだけで、どのプラットフォームにも展開可能</li><li>世の中のVRとARの3分の2以上で利用</li></ul>](https://unity3d.com/jp/unity)
 @snapend
 
-<u>[Unity公式サイト](https://unity3d.com/jp/)</u>  @css[detail-comment](**「unity 製品」で検索**)
+<u>[The world’s leading
+real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comment](**「unity 製品」で検索**)
 
 @snapend
 

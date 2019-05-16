@@ -345,8 +345,11 @@
 @box[rounded box-style](変数は、<br>「** 型 識別子 = 値 ; **」<br>のように書きます。)
 
 ```
-型    識別子           代入  値                           文の終わりを示す
-float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
+float moveHorizontal   =   Input.GetAxis("Horizontal") ;
+
+↓
+
+float＜型＞ moveHorizontal＜識別子＞ =＜代入＞ Input.GetAxis("Horizontal")＜値＞ ;＜文の終わりを示す＞
 ```
 @snapend
 
@@ -372,14 +375,6 @@ float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
 - 関数の中身：**定義** @css[detail-comment](（`{`と`}`で囲った中に記述します）)
 @ulend
 
-```
-型   識別子  引数（空のカッコの場合は引数なし）
-void Start ()
-{
-    定義
-    rb = GetComponent<Rigidbody>();
-}
-```
 @snapend
 
 ---
@@ -398,11 +393,16 @@ void Start ()
 @box[rounded box-style](関数は、<br>「** 関数の型 識別子 ( 引数 ) { 定義 } **」<br>のように書きます。)
 
 ```
-型   識別子  引数（空のカッコの場合は引数なし）
 void Start ()
 {
-    定義
     rb = GetComponent<Rigidbody>();
+}
+
+↓
+
+void＜関数の型＞ Start＜識別子＞ ()＜引数：空のカッコの場合は引数なし＞
+{
+    rb = GetComponent<Rigidbody>();＜定義＞
 }
 ```
 @snapend

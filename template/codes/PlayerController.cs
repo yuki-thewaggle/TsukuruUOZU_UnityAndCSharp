@@ -6,7 +6,6 @@ using System.Collections; //「System.Collections」プログラムが使用で�
 public class PlayerController : MonoBehaviour { //ここから…★
 
     public float speed; //「speed」という名前の 変数 を宣言しています。
-
     private Rigidbody rb; //「rb」という名前の 変数 を宣言しています。
 
     //「Start」という名前の 関数 を宣言しています。

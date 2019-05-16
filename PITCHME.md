@@ -327,6 +327,23 @@
 - データの中身：**値** @css[detail-comment](（右辺から左辺にある識別子に代入するという形で中身を保存します）)
 @ulend
 
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [4. C＃の基礎](#/)
+- [3. 変数の書き方](#/)
+@olend
+@snapend
+
+### @css[slide-title](変数の書き方)
+
+@snap[slide-contents]
+
+@box[rounded box-style](変数は、<br>「** 型 識別子 = 値 ; **」<br>のように書きます。)
+
 ```
 型    識別子           代入  値                           文の終わりを示す
 float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
@@ -338,7 +355,7 @@ float moveHorizontal   =   Input.GetAxis ("Horizontal") ;
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [4. C＃の基礎](#/)
-- [3. 関数について](#/)
+- [4. 関数について](#/)
 @olend
 @snapend
 
@@ -370,6 +387,31 @@ void Start ()
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [4. C＃の基礎](#/)
+- [5. 関数の書き方](#/)
+@olend
+@snapend
+
+### @css[slide-title](関数の書き方)
+
+@snap[slide-contents]
+
+@box[rounded box-style](関数は、<br>「** 関数の型 識別子 ( 引数 ) { 定義 } **」<br>のように書きます。)
+
+```
+型   識別子  引数（空のカッコの場合は引数なし）
+void Start ()
+{
+    定義
+    rb = GetComponent<Rigidbody>();
+}
+```
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [4. C＃の基礎](#/)
 - [4. コードの読み方](#/)
 @olend
 @snapend
@@ -382,25 +424,7 @@ void Start ()
 [Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
 @snapend
 
-<pre class="code-contents">
-//UnityやC＃にはあらかじめ用意されているプログラムがあります。
-using UnityEngine;  //「UnityEngine」プログラムが使用できるようになります。
-using System.Collections; //「System.Collections」プログラムが使用できるようになります。
-
-//このスクリプトに「PlayerController」という名前をつけています。
-public class PlayerController : MonoBehaviour { //ここから★
-
-    public float speed; //「speed」という名前の 変数 を宣言しています。
-
-    private Rigidbody rb; //「rb」という名前の 変数 を宣言しています。
-
-    void Start () //「Start」という名前の 関数 を宣言しています。
-    { //ここから●
-        rb = GetComponent<Rigidbody>(); //「rb」という名前の 変数 に「GetComponent<Rigidbody>()」の値を設定しています。
-    } //●ここまでが「Start」関数の中身です。
-    
-}//★ここまでが「PlayerController」の中身です。
-</pre>
+@img[/template/img/PlayerController.png]
 
 @snapend
 

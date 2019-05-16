@@ -11,9 +11,7 @@ public class PlayerController : MonoBehaviour { //ここから…★
     //「Start」という名前の 関数 を宣言しています。
     void Start ()
     { //…ここから●
-
         rb = GetComponent<Rigidbody>();
-
     } //●ここまでが「Start」関数の中身です。
 
 } //★ここまでが「PlayerController」の中身です。

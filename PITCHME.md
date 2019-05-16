@@ -61,10 +61,11 @@
 @snap[slide-contents]
 
 @snap[quote-wrap]
-@quote[<ul><li>世界で最も使われているゲームエンジン（ゲーム開発に便利なソフトウェア）</li><li>1回ビルドするだけで、どのプラットフォームにも展開可能</li><li>世の中のVRとARの3分の2以上で利用</li></ul>](https://unity3d.com/jp/unity)
+@quote[<ul><li>世界で最も使われているゲームエンジン（ゲーム開発に便利なソフトウェア）</li><li>1回ビルドするだけで、どのプラットフォーム（ソフトウェアが動作する環境）にも展開可能</li><li>世の中のVRとARの3分の2以上で利用</li></ul>](https://unity3d.com/jp/unity)
 @snapend
 
-<u>[Unity公式サイト](https://unity3d.com/jp/)</u>  @css[detail-comment](**「unity 製品」で検索**)
+<u>[The world’s leading
+real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comment](**「unity 製品」で検索**)
 
 @snapend
 
@@ -346,9 +347,7 @@
 
 ```
 float moveHorizontal   =   Input.GetAxis("Horizontal") ;
-
 ↓
-
 float＜型＞ moveHorizontal＜識別子＞ =＜代入＞ Input.GetAxis("Horizontal")＜値＞ ;＜文の終わりを示す＞
 ```
 @snapend
@@ -362,7 +361,7 @@ float＜型＞ moveHorizontal＜識別子＞ =＜代入＞ Input.GetAxis("Horizo
 @olend
 @snapend
 
-### @css[slide-title](変数について)
+### @css[slide-title](関数について)
 
 @snap[slide-contents]
 
@@ -397,9 +396,7 @@ void Start ()
 {
     rb = GetComponent<Rigidbody>();
 }
-
 ↓
-
 void＜関数の型＞ Start＜識別子＞ ()＜引数：空のカッコの場合は引数なし＞
 {
     rb = GetComponent<Rigidbody>();＜定義＞
@@ -421,7 +418,7 @@ void＜関数の型＞ Start＜識別子＞ ()＜引数：空のカッコの場�
 @snap[slide-contents]
 
 @snap[detail-comment]
-[Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から転載
+[Unityチュートリアル「玉転がし」>「プレイヤーの移動」](https://unity3d.com/jp/learn/tutorials/projects/roll-ball-tutorial/moving-player?playlist=45990)から一部転載
 @snapend
 
 @img[goal-image to-center](/template/img/PlayerController.png)

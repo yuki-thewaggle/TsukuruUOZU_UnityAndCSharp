@@ -346,9 +346,7 @@
 
 ```
 float moveHorizontal   =   Input.GetAxis("Horizontal") ;
-
 ↓
-
 float＜型＞ moveHorizontal＜識別子＞ =＜代入＞ Input.GetAxis("Horizontal")＜値＞ ;＜文の終わりを示す＞
 ```
 @snapend
@@ -397,9 +395,7 @@ void Start ()
 {
     rb = GetComponent<Rigidbody>();
 }
-
 ↓
-
 void＜関数の型＞ Start＜識別子＞ ()＜引数：空のカッコの場合は引数なし＞
 {
     rb = GetComponent<Rigidbody>();＜定義＞

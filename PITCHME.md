@@ -342,7 +342,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](変数は、<br>「** 型 識別子 = 値 ; **」<br>のように書きます。)
+@box[rounded box-style](変数は「** 型 識別子 = 値 ; **」のように書きます。)
 
 ```
 float moveHorizontal   =   Input.GetAxis("Horizontal") ;
@@ -390,7 +390,7 @@ float＜型＞ moveHorizontal＜識別子＞ =＜代入＞ Input.GetAxis("Horizo
 
 @snap[slide-contents]
 
-@box[rounded box-style](関数は、<br>「** 関数の型 識別子 ( 引数 ) { 定義 } **」<br>のように書きます。)
+@box[rounded box-style](関数は「** 関数の型 識別子 ( 引数 ) { 定義 } **」のように書きます。)
 
 ```
 void Start ()

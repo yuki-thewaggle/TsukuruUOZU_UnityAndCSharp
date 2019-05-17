@@ -224,20 +224,10 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @box[rounded box-style](Visual StudioとUnityを連携します。)
 
 @ol[numberlist numberlist-color4](false)
-- Windowsの場合：<u>[Visual Studio Tools for Unity の使用を開始する](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019)</u><br>にアクセスします。@css[detail-comment](「visual studio unity」で検索)
-- Macの場合：<u>[Visual Studio for Mac Tools for Unityを設定する](https://docs.microsoft.com/ja-jp/visualstudio/mac/setup-vsmac-tools-unity?view=vsmac-2019)</u><br>にアクセスします。@css[detail-comment](「visual studio **mac** unity」で検索)
-- ページの記述にしたがって設定します。
-- ①Unity Hubのインストール
-これはこのイベントページのリンクか「Unity personal」で検索してください。
-
-②Unity2018.4.0のインストール
-これは、「Unity マニュアル」で検索してください。
-
-③VisualStudioのインストール
-これは、「VisualStudio ダウンロード」で検索してください。
-
-④UnityとVisualStudioの連携
-これは、Windowsの場合は「VisualStudio Unity」、Macの場合は「VisualStudio Mac Unity」で検索してください。
+- <u>[Unity Hubのインストール](https://store.unity.com/ja/download?ref=personal)</u><br>@css[detail-comment](「Unity personal」で検索)
+- [Unity2018.4.0のインストール](https://docs.unity3d.com/ja/current/Manual/UnityManual.html)</u><br>@css[detail-comment](「Unity マニュアル」で検索)
+- [VisualStudioのインストール](https://docs.microsoft.com/ja-jp/visualstudio/install/install-visual-studio?view=vs-2019)</u><br>@css[detail-comment](「VisualStudio ダウンロード」で検索)
+- UnityとVisualStudioの連携（<u>[Windows](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019)</u>・<u>[Mac](https://docs.microsoft.com/ja-jp/visualstudio/mac/setup-vsmac-tools-unity?view=vsmac-2019)</u><br>@css[detail-comment](「VisualStudio Unity」、Macの場合は「VisualStudio Mac Unity」で検索)<br>
 @olend
 
 @snapend

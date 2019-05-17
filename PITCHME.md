@@ -169,7 +169,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @ol[numberlist numberlist-color4](false)
 - <u>[Visual Studio のインストール](https://docs.microsoft.com/ja-jp/visualstudio/install/install-visual-studio?view=vs-2019)</u>にアクセスします。<br>@css[detail-comment](「visual studio ダウンロード」で検索)
 - ページの記述にしたがってインストールします。
-- ※ほかにもダウンロードを促されるものがあれば追加でインストールします。
+- @css[detail-comment](ほかにもダウンロードを促されるものがあれば追加でインストールします。)
 @olend
 
 @snapend

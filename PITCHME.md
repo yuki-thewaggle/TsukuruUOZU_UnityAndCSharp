@@ -374,7 +374,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @box[rounded box-style](変数は「** 型 識別子 = 値 ; **」のように書きます。)
 
 ```
-float moveHorizontal   =   Input.GetAxis("Horizontal") ;
+float   moveHorizontal     =     Input.GetAxis("Horizontal")   ;
 ↓
 ＜型＞ ＜識別子＞ ＜代入＞ ＜値＞ ＜文の終わりを示す＞
 ```
@@ -395,12 +395,10 @@ float moveHorizontal   =   Input.GetAxis("Horizontal") ;
 
 @box[rounded box-style](関数では、データをどのように処理させるかを指定します。<br>関数には4つの概念があります。)
 
-@ul
 - 関数の種類：**関数の型** @css[detail-comment](（処理した結果どのような種類の値を返すのかを表します）)
 - 関数の名前：**識別子** @css[detail-comment](（ルールにしたがって自分でつけます）)
 - 処理させたいデータ：**引数** @css[detail-comment](（処理させたいデータがあるときに指定します）)
 - 関数の中身：**定義** @css[detail-comment](（`{`と`}`で囲った中に記述します）)
-@ulend
 
 @snapend
 
@@ -425,7 +423,7 @@ void Start ()
     rb = GetComponent<Rigidbody>();
 }
 ↓
-＜関数の型＞ ＜識別子＞ (＜引数：空のカッコの場合は引数なし＞)
+＜関数の型＞ ＜識別子＞ (＜引数＞)
 {
     ＜定義＞
 }

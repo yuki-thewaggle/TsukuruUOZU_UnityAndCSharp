@@ -227,7 +227,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 - <u>[Unity Hubのインストール](https://store.unity.com/ja/download?ref=personal)</u><br>@css[detail-comment](「Unity personal」で検索)
 - <u>[Unity2018.4.0のインストール](https://docs.unity3d.com/ja/current/Manual/UnityManual.html)</u><br>@css[detail-comment](「Unity マニュアル」で検索)
 - <u>[VisualStudioのインストール](https://docs.microsoft.com/ja-jp/visualstudio/install/install-visual-studio?view=vs-2019)</u><br>@css[detail-comment](「VisualStudio ダウンロード」で検索)
-- UnityとVisualStudioの連携（<u>[Windows](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019)</u>・<u>[Mac](https://docs.microsoft.com/ja-jp/visualstudio/mac/setup-vsmac-tools-unity?view=vsmac-2019)</u>）<br>@css[detail-comment](「VisualStudio Unity」、Macの場合は「VisualStudio Mac Unity」で検索)<br>
+- UnityとVisualStudioの連携（<u>[Windows](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019)</u>・<u>[Mac](https://docs.microsoft.com/ja-jp/visualstudio/mac/setup-vsmac-tools-unity?view=vsmac-2019)</u>）<br>@css[detail-comment](Windowsの場合は「VisualStudio Unity」、Macの場合は「VisualStudio Mac Unity」で検索)<br>
 @olend
 
 @snapend

@@ -453,3 +453,54 @@ void Start ()
 
 @snapend
 
+
+---?color=#3A8FB7
+
+@snap[breadcrumbs-wrap bluescale]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [学習についてのまとめ](#/)
+@olend
+@snapend
+
+@snap[west headline]
+## 学習についてのまとめ
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [学習についてのまとめ](#/)
+@olend
+@snapend
+
+### @css[slide-title](学習についてのまとめ)
+
+@snap[slide-contents]
+
+@box[rounded box-style](この４つを持ち帰ると<br>独学でUnityとC#の学習ができるようになります。)
+
+@ol[numberlist numberlist-color4](false)
+- <u>[Unity チュートリアル](https://unity3d.com/jp/learn/tutorials)</u><br>@css[detail-comment](「Unity チュートリアル」で検索)
+- <u>[はじめてのUnity](http://tutorial.unity3d.jp/)</u><br>@css[detail-comment](「はじめてのUnity」で検索)
+- <u>[Unityスクリプトリファレンス](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u><br>@css[detail-comment](「Unity スクリプトリファレンス」で検索)
+- [C#リファレンス](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/)</u><br>@css[detail-comment](「C# リファレンス」で検索)<br>
+@olend
+
+@snapend
+
+
+---?color=#3A8FB7
+
+@snap[breadcrumbs-wrap bluescale]
+@ol[breadcrumbs](false)
+- [講座の流れ](#/2)
+- [5. 実演](#/)
+@olend
+@snapend
+
+@snap[west headline]
+## 実演
+@snapend
+

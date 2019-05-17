@@ -262,7 +262,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 
 @box[rounded box-style](Unityは公式のチュートリアルが充実しています。<br>チュートリアルに沿ってゲーム制作を行いながら<br>Unityを学ぶのが効率的です。)
 
-@ul
+@ul(false)
 - <u>[Unityチュートリアル](https://unity3d.com/jp/learn/tutorials)</u>@css[detail-comment](「unity チュートリアル」で検索)
 - <u>[はじめてのUnity](http://tutorial.unity3d.jp/)</u>@css[detail-comment](「はじめてのunity」で検索)
 @ulend

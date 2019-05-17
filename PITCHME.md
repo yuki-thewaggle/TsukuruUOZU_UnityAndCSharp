@@ -62,7 +62,7 @@
 @snap[slide-contents]
 
 @snap[quote-wrap]
-@quote[<ul><li>世界で最も使われているゲームエンジン（ゲーム開発に必要な機能が揃った能率的なソフトウェア）</li><li>1回ビルドするだけで、どのプラットフォーム（ソフトウェアが動作する環境）にも展開可能<ul><li>ビルド：完成したゲームが動作するように仕上げる作業</li></ul></li><li>世の中のVRとARの3分の2以上で利用<ul><li>VR（仮想現実）：ゴーグルを装着すると中にバーチャルの世界が広がっている</li><li>AR（拡張現実）：現実世界をカメラで写すと現実にない仮想の世界がカメラの中に存在する</li></ul></li></ul>](https://unity3d.com/jp/unity)
+@quote[<ul><li>世界で最も使われているゲームエンジン<ul><li>ゲーム開発に必要な機能が揃った能率的なソフトウェア</li></ul></li><li>1回ビルドするだけで、どのプラットフォームにも展開可能<ul><li>プラットフォーム：ソフトウェアが動作する環境</li><li>ビルド：完成したゲームが動作するように仕上げる作業</li></ul></li><li>世の中のVRとARの3分の2以上で利用<ul><li>VR（仮想現実）：ゴーグルを装着すると中にバーチャルの世界が広がっている</li><li>AR（拡張現実）：現実世界をカメラで写すと現実にない仮想の世界がカメラの中に存在する</li></ul></li></ul>](https://unity3d.com/jp/unity)
 @snapend
 
 <u>[The world’s leading
@@ -144,7 +144,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @snap[slide-contents]
 
 @snap[quote-wrap]
-@quote[<ul><li>統合開発環境（コードの記述からプログラムの実行までできるソフトウェア）</li><li>複数の言語に対応（C＃、C++、JavaScriptほか）</li></ul>](https://docs.microsoft.com/ja-jp/visualstudio/ide/?view=vs-2019)
+@quote[<ul><li>統合開発環境<ul><li>コードの記述からプログラムの実行までできるソフトウェア</li></ul></li><li>複数の言語に対応（C＃、C++、JavaScriptほか）</li></ul>](https://docs.microsoft.com/ja-jp/visualstudio/ide/?view=vs-2019)
 @snapend
 
 <u>[Visual Studio IDE ドキュメント](https://docs.microsoft.com/ja-jp/visualstudio/ide/?view=vs-2019)</u> @css[detail-comment](**「visual studio ドキュメント 学習」で検索**)

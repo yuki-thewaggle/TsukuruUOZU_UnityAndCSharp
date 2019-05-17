@@ -420,7 +420,7 @@ float   moveHorizontal     =     Input.GetAxis("Horizontal")   ;
 ```
 void Start ()
 {
-    rb = GetComponent<Rigidbody>();
+    var rb = GetComponent<Rigidbody>();
 }
 ↓
 ＜関数の型＞ ＜識別子＞  ( ＜引数＞ )

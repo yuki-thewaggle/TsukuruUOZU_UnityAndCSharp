@@ -423,7 +423,7 @@ void Start ()
     rb = GetComponent<Rigidbody>();
 }
 ↓
-＜関数の型＞ ＜識別子＞ (＜引数＞)
+＜関数の型＞ ＜識別子＞  ( ＜引数＞ )
 {
     ＜定義＞
 }

@@ -66,7 +66,7 @@
 @snapend
 
 <u>[The world’s leading
-real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comment](**「unity 製品」で検索**)
+real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comment](「unity 製品」で検索)
 
 @snapend
 
@@ -86,7 +86,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @box[rounded box-style](まずUnity Hubをインストールし、<br>Unity HubからUnityをインストールします。)
 
 @ol[numberlist numberlist-color4](false)
-- <u>[Unity Personalで今すぐスタート](https://store.unity.com/ja/download?ref=personal)</u>にアクセスします。 <br>@css[detail-comment](**つくるUOZUプロジェクトの本イベントページにあるリンク、または「unity Personal」で検索**)
+- <u>[Unity Personalで今すぐスタート](https://store.unity.com/ja/download?ref=personal)</u>にアクセスします。 <br>@css[detail-comment](つくるUOZUプロジェクトの本イベントページにあるリンク、または「unity Personal」で検索)
 - **条件に同意する** をチェックします。
 - **Unity Hubをダウンロード** をクリックしてインストールします。
 - Unity Hubを起動します。
@@ -112,7 +112,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 
 @box[rounded box-style](Unityの使い方については、<br>公式のマニュアルがもっとも信頼できる情報です。)
 
-* <u>[マニュアル](https://docs.unity3d.com/ja/current/Manual/UnityManual.html) </u>@css[detail-comment](**「unity マニュアル」で検索**)
+* <u>[マニュアル](https://docs.unity3d.com/ja/current/Manual/UnityManual.html) </u>@css[detail-comment](「unity マニュアル」で検索)
   * Unityについて詳しく説明されています。
 
 @snapend
@@ -147,7 +147,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @quote[<ul><li>統合開発環境<ul><li>コードの記述からプログラムの実行までできるソフトウェア</li></ul></li><li>複数の言語に対応（C＃、C++、JavaScriptほか）</li></ul>](https://docs.microsoft.com/ja-jp/visualstudio/ide/?view=vs-2019)
 @snapend
 
-<u>[Visual Studio IDE ドキュメント](https://docs.microsoft.com/ja-jp/visualstudio/ide/?view=vs-2019)</u> @css[detail-comment](**「visual studio ドキュメント 学習」で検索**)
+<u>[Visual Studio IDE ドキュメント](https://docs.microsoft.com/ja-jp/visualstudio/ide/?view=vs-2019)</u> @css[detail-comment](「visual studio ドキュメント 学習」で検索)
 
 @snapend
 
@@ -167,7 +167,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @box[rounded box-style](Visual Studioをインストールします。)
 
 @ol[numberlist numberlist-color4](false)
-- <u>[Visual Studio のインストール](https://docs.microsoft.com/ja-jp/visualstudio/install/install-visual-studio?view=vs-2019)</u>にアクセスします。<br>@css[detail-comment](**「visual studio ダウンロード」で検索**)
+- <u>[Visual Studio のインストール](https://docs.microsoft.com/ja-jp/visualstudio/install/install-visual-studio?view=vs-2019)</u>にアクセスします。<br>@css[detail-comment](「visual studio ダウンロード」で検索)
 - ページの記述にしたがってインストールします。
 - ※ほかにもダウンロードを促されるものがあれば追加でインストールします。
 @olend
@@ -190,8 +190,8 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @box[rounded box-style](Visual StudioとUnityを連携します。)
 
 @ol[numberlist numberlist-color4](false)
-- Windowsの場合：<u>[Visual Studio Tools for Unity の使用を開始する](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019)</u>にアクセスします。<br>@css[detail-comment](**「visual studio unity」で検索**)
-- Macの場合：<u>[Visual Studio for Mac Tools for Unityを設定する](https://docs.microsoft.com/ja-jp/visualstudio/mac/setup-vsmac-tools-unity?view=vsmac-2019)</u>にアクセスします。<br>@css[detail-comment](**「visual studio mac unity」で検索**)
+- Windowsの場合：<u>[Visual Studio Tools for Unity の使用を開始する](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019)</u>にアクセスします。<br>@css[detail-comment](「visual studio unity」で検索)
+- Macの場合：<u>[Visual Studio for Mac Tools for Unityを設定する](https://docs.microsoft.com/ja-jp/visualstudio/mac/setup-vsmac-tools-unity?view=vsmac-2019)</u>にアクセスします。<br>@css[detail-comment](「visual studio mac unity」で検索)
 - ページの記述にしたがって設定します。
 @olend
 
@@ -226,8 +226,8 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @box[rounded box-style](Unityは公式のチュートリアルが充実しています。<br>チュートリアルに沿ってゲーム制作を行いながら<br>Unityを学ぶのが効率的です。)
 
 @ul
-- <u>[Unityチュートリアル](https://unity3d.com/jp/learn/tutorials)</u>@css[detail-comment](**「unity チュートリアル」で検索**)
-- <u>[はじめてのUnity](http://tutorial.unity3d.jp/)</u>@css[detail-comment](**「はじめてのunity」で検索**)
+- <u>[Unityチュートリアル](https://unity3d.com/jp/learn/tutorials)</u>@css[detail-comment](「unity チュートリアル」で検索)
+- <u>[はじめてのUnity](http://tutorial.unity3d.jp/)</u>@css[detail-comment](「はじめてのunity」で検索)
 @ulend
 
 @snapend
@@ -267,7 +267,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @box[rounded box-style](Unityのスクリプトで知りたいワードが出てきたときは、<br>公式のスクリプトリファレンスで検索して学びます。)
 
 @ol[numberlist numberlist-color4](false)
-- <u>[Unityスクリプトリファレンスへようこそ](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u>にアクセスします。@css[detail-comment](**「unity スクリプトリファレンス」で検索**)
+- <u>[Unityスクリプトリファレンスへようこそ](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u>にアクセスします。@css[detail-comment](「unity スクリプトリファレンス」で検索)
 - 検索ボックスに知りたいワードを記入して検索します。
 - 該当するページを開いて学びます。
 @olend

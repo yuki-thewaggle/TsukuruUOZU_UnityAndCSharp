@@ -332,10 +332,8 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 
 @box[rounded box-style](プログラムは「データ」と「処理」でできています。)
 
-@ul
 - データを保存する部分：**変数**
 - 処理する部分：**関数**
-@ulend
 
 @snapend
 
@@ -354,11 +352,9 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 
 @box[rounded box-style](変数とはデータを保存するための箱である、<br>とイメージするとわかりやすいです。<br>変数には3つの概念があります。)
 
-@ul
 - データの種類：**型** @css[detail-comment](（整数・文字列などあらかじめ決められているものと、自分で作るものとがあります）)
 - データの名前：**識別子** @css[detail-comment](（ルールにしたがって自分でつけます）)
 - データの中身：**値** @css[detail-comment](（右辺から左辺にある識別子に代入するという形で中身を保存します）)
-@ulend
 
 @snapend
 

@@ -376,7 +376,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 ```
 float   moveHorizontal     =     Input.GetAxis("Horizontal")   ;
 ↓
-＜型＞ ＜識別子＞ ＜代入＞ ＜値＞ ＜文の終わりを示す＞
+＜型＞ ＜識別子＞ ＜代入＞ ＜値＞ ＜;は文の終わりを示す＞
 ```
 @snapend
 

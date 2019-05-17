@@ -479,7 +479,7 @@ void Start ()
 
 @snap[slide-contents]
 
-@box[rounded box-style](この４つを持ち帰ると<br>独学でUnityとC#の学習ができるようになります。)
+@box[rounded box-style](この４つを持ち帰ると<br>独学でUnityとC＃の学習ができるようになります。)
 
 @ol[numberlist numberlist-color4](false)
 - <u>[Unity チュートリアル](https://unity3d.com/jp/learn/tutorials)</u><br>@css[detail-comment](「Unity チュートリアル」で検索)

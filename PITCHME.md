@@ -217,11 +217,11 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @olend
 @snapend
 
-### @css[slide-title](Visual StudioとUnityの連携)
+### @css[slide-title](ここまでのまとめ)
 
 @snap[slide-contents]
 
-@box[rounded box-style](Visual StudioとUnityを連携します。)
+@box[rounded box-style](この４つを持ち帰ると1人でもゲーム開発の環境作りができるようになります。)
 
 @ol[numberlist numberlist-color4](false)
 - <u>[Unity Hubのインストール](https://store.unity.com/ja/download?ref=personal)</u><br>@css[detail-comment](「Unity personal」で検索)

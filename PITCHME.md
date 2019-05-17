@@ -189,8 +189,8 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @box[rounded box-style](Visual StudioとUnityを連携します。)
 
 @ol[numberlist numberlist-color4](false)
-- Windowsの場合：<u>[Visual Studio Tools for Unity の使用を開始する](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019)</u>にアクセスします。<br>@css[detail-comment](「visual studio unity」で検索)
-- Macの場合：<u>[Visual Studio for Mac Tools for Unityを設定する](https://docs.microsoft.com/ja-jp/visualstudio/mac/setup-vsmac-tools-unity?view=vsmac-2019)</u>にアクセスします。<br>@css[detail-comment](「visual studio mac unity」で検索)
+- Windowsの場合：<u>[Visual Studio Tools for Unity の使用を開始する](https://docs.microsoft.com/ja-jp/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity?view=vs-2019)</u><br>にアクセスします。@css[detail-comment](「visual studio unity」で検索)
+- Macの場合：<u>[Visual Studio for Mac Tools for Unityを設定する](https://docs.microsoft.com/ja-jp/visualstudio/mac/setup-vsmac-tools-unity?view=vsmac-2019)</u><br>にアクセスします。@css[detail-comment](「visual studio mac unity」で検索)
 - ページの記述にしたがって設定します。
 @olend
 

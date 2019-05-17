@@ -262,10 +262,8 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 
 @box[rounded box-style](Unityは公式のチュートリアルが充実しています。<br>チュートリアルに沿ってゲーム制作を行いながら<br>Unityを学ぶのが効率的です。)
 
-@ul[](false)
 - <u>[Unityチュートリアル](https://unity3d.com/jp/learn/tutorials)</u>@css[detail-comment](「unity チュートリアル」で検索)
 - <u>[はじめてのUnity](http://tutorial.unity3d.jp/)</u>@css[detail-comment](「はじめてのunity」で検索)
-@ulend
 
 @snapend
 
@@ -293,23 +291,18 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @ol[breadcrumbs](false)
 - [講座の流れ](#/2)
 - [3. 学習の進めかた](#/)
-- [3. スクリプトリファレンスの使い方](#/)
+- [3. 疑問の解決方法](#/)
 @olend
 @snapend
 
-### @css[slide-title](スクリプトリファレンスの使い方)
+### @css[slide-title](疑問の解決方法)
 
 @snap[slide-contents]
 
-@box[rounded box-style](Unityのスクリプトで知りたいワードが出てきたときは、<br>公式のスクリプトリファレンスで検索して学びます。)
+@box[rounded box-style](疑問が出てきたら、該当する公式ページを調べて解決します。)
 
-@ol[numberlist numberlist-color4](false)
-- <u>[Unityスクリプトリファレンスへようこそ](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u>にアクセスします。@css[detail-comment](「unity スクリプトリファレンス」で検索)
-- 検索ボックスに知りたいワードを記入して検索します。
-- 該当するページを開いて学びます。
-@olend
-
-@snapend
+- Unityについての疑問：<u>[Unityマニュアル](https://docs.unity3d.com/ja/current/Manual/index.html)</u>
+- スクリプトについての疑問：<ol><li>[Unityスクリプトリファレンスへようこそ](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u>にアクセスします。@css[detail-comment](「unity スクリプトリファレンス」で検索)</li><li><u>[C# リファレンス](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/)</u>にアクセスします。@css[detail-comment](「C# リファレンス」で検索)</li></ol>
 
 ---?color=#3A8FB7
 

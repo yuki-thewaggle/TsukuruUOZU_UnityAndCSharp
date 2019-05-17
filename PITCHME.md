@@ -398,7 +398,7 @@ float   moveHorizontal     =     Input.GetAxis("Horizontal")   ;
 - 関数の種類：**関数の型** @css[detail-comment](（処理した結果どのような種類の値を返すのかを表します）)
 - 関数の名前：**識別子** @css[detail-comment](（ルールにしたがって自分でつけます）)
 - 処理させたいデータ：**引数** @css[detail-comment](（処理させたいデータがあるときに指定します）)
-- 関数の中身：**定義** @css[detail-comment](（`{`と`}`で囲った中に記述します）)
+- 関数の中身：**定義** @css[detail-comment](（どのように処理しどのような結果を返すのかを記述します）)
 
 @snapend
 

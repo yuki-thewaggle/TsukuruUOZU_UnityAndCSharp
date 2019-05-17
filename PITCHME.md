@@ -354,7 +354,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 
 - データの種類：**型** @css[detail-comment](（整数・文字列などあらかじめ決められているものと、自分で作るものとがあります）)
 - データの名前：**識別子** @css[detail-comment](（ルールにしたがって自分でつけます）)
-- データの中身：**値** @css[detail-comment](（右辺から左辺にある識別子に代入するという形で中身を保存します）)
+- データの中身：**値** @css[detail-comment](指定した型にあった中身でないと入れられない）)
 
 @snapend
 

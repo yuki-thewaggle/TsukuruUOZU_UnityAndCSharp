@@ -25,7 +25,7 @@
 
 @ol[numberlist numberlist-color1](false)
 - Unityの基礎  @css[detail-comment](Unityについての基本的な情報と使い方)
-- Visual Studioについて	@css[detail-comment](Unityで使うプログラミングのコードを記述するソフト)
+- Visual Studioについて	@css[detail-comment](Unityで使うプログラミングのコードを記述)
 - 学習の進めかた @css[detail-comment](効率的にUnityとC#のスキルを獲得できる学習方法)
 - C＃の基礎 @css[detail-comment](プログラミングの知識を簡単に)
 - 実演 @css[detail-comment](独学をしていくためのイメージトレーニング)

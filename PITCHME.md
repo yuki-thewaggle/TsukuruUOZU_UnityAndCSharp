@@ -301,7 +301,8 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 @box[rounded box-style](疑問が出てきたら、該当する公式ページを調べて解決します。)
 
 <p>**Unity**についての疑問：<u>[Unityマニュアル](https://docs.unity3d.com/ja/current/Manual/index.html)</u></p>
-<p>**スクリプト**についての疑問：¥t<ol class="numberlist numberlist-color4"><li><u>[Unityスクリプトリファレンスへようこそ](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u><br>@css[detail-comment](「unity スクリプトリファレンス」で検索)</li><li><u>[C# リファレンス](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/)</u><br>@css[detail-comment](「C# リファレンス」で検索)</li></ol></p>
+<br>
+<p>**スクリプト**についての疑問：<ol class="numberlist numberlist-color4"><li><u>[Unityスクリプトリファレンスへようこそ](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u><br>@css[detail-comment](「unity スクリプトリファレンス」で検索)</li><li><u>[C# リファレンス](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/)</u><br>@css[detail-comment](「C# リファレンス」で検索)</li></ol></p>
 
 ---?color=#3A8FB7
 

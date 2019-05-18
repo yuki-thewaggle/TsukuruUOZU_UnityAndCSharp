@@ -354,7 +354,7 @@ real-time creation platform](https://unity3d.com/jp/unity)</u>  @css[detail-comm
 
 - データの種類：**型** @css[detail-comment](（整数・文字列などあらかじめ決められているものと、自分で作るものとがあります）)
 - データの名前：**識別子** @css[detail-comment](（ルールにしたがって自分でつけます）)
-- データの中身：**値** @css[detail-comment](指定した型にあった中身でないと入れられない）)
+- データの中身：**値** @css[detail-comment](（指定した型にあった中身でないと入れられない）)
 
 @snapend
 
@@ -415,7 +415,7 @@ float   moveHorizontal     =     Input.GetAxis("Horizontal")   ;
 
 @snap[slide-contents]
 
-@box[rounded box-style](関数は「** 関数の型 識別子 ( 引数 ) { 定義 } **」のように書きます。)
+@box[rounded box-style](関数は「** 関数の型 識別子 ( 引数 , 引数 ... ) { 定義 } **」のように書きます。)
 
 ```
 void Start ()
@@ -485,7 +485,7 @@ void Start ()
 - <u>[Unity チュートリアル](https://unity3d.com/jp/learn/tutorials)</u><br>@css[detail-comment](「Unity チュートリアル」で検索)
 - <u>[はじめてのUnity](http://tutorial.unity3d.jp/)</u><br>@css[detail-comment](「はじめてのUnity」で検索)
 - <u>[Unityスクリプトリファレンス](https://docs.unity3d.com/ja/current/ScriptReference/index.html)</u><br>@css[detail-comment](「Unity スクリプトリファレンス」で検索)
-- [C#リファレンス](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/)</u><br>@css[detail-comment](「C# リファレンス」で検索)<br>
+- <u>[C#リファレンス](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/)</u><br>@css[detail-comment](「C# リファレンス」で検索)<br>
 @olend
 
 @snapend
